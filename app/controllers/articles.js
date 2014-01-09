@@ -19,7 +19,7 @@ exports.article = function(req, res, next, id) {
 };
 
 /**
- * Create a article
+ * Create an article
  */
 exports.create = function(req, res) {
     var article = new Article(req.body);
@@ -38,7 +38,7 @@ exports.create = function(req, res) {
 };
 
 /**
- * Update a article
+ * Update an article
  */
 exports.update = function(req, res) {
     var article = req.article;
